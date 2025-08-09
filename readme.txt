@@ -19,6 +19,19 @@ How to run (offline, after extracting to a local folder):
    streamlit run H2app.py
 6. The dashboard opens at http://localhost:8501
 
+2nd optioon:
+
+Quick run steps (copy-paste)
+Download the .zip files and extract it to download folder. 
+Extract ZIP into e.g ( "C:\Users\Sohel pc\Downloads\H2model" ) (or your preferred folder).
+
+Open Command Prompt and run:
+cd "C:\Users\Sohel pc\Downloads\H2model"
+pip install -r requirements.txt
+streamlit run H2app.py
+
+Dashboard will open in your browser at http://localhost:8501.
+
 Notes about this updated version:
 - All energy values are in MWh (converted from kWh).
 - Default Solar = 80 MWh (editable in the sidebar).
