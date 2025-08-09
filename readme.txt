@@ -28,7 +28,7 @@ Extract ZIP into e.g ( "C:\Users\Your pc\Downloads\H2model"
 Open Command Prompt and run:
 cd "C:\Users\Sohel pc\Downloads\H2model"
 pip install -r requirements.txt
-streamlit run H2app.py
+streamlit run H2app_updated.py
 
 or, 
 cd "C:\Users\Sohel pc\Downloads\h2model"
@@ -36,6 +36,29 @@ venv\Scripts\activate
 streamlit run H2app_updated.py
 
 Dashboard will open in your browser at http://localhost:8501.
+
+
+# Hydrogen Research Model (MWh-Based)
+
+This project is a **Streamlit-based dashboard** for modeling a Solar–Hydrogen hybrid energy system in Bangladesh.  
+It supports month-by-month analysis from **April 2024 – March 2025** with key outputs such as hydrogen production, CO₂ savings, and financial projections.
+
+ 🚀 How to Run
+
+ 1️⃣ Option A — If You **Have Python Installed**
+1. **Clone the repository**: from bash
+            git clone https://github.com/sohelmd0188/Research-model.git
+            cd Research-model
+2. Create a virtual environment:
+            python -m venv venv
+            venv\Scripts\activate   # On Windows
+            # or
+            source venv/bin/activate   # On Mac/Linux
+3. Install required dependencies:
+            pip install -r requirements.txt
+4. Run the app:
+            streamlit run H2app.py
+The dashboard will open in your default web browser.
 
 Notes about this updated version:
 - All energy values are in MWh (converted from kWh).
