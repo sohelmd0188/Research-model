@@ -23,7 +23,7 @@ How to run (offline, after extracting to a local folder):
 
 Quick run steps (copy-paste)
 Download the .zip files and extract it to download folder. 
-Extract ZIP into e.g ( "C:\Users\Sohel pc\Downloads\H2model" ) (or your preferred folder).
+Extract ZIP into e.g ( "C:\Users\Your pc\Downloads\H2model"
 
 Open Command Prompt and run:
 cd "C:\Users\Sohel pc\Downloads\H2model"
