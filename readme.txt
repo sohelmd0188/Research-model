@@ -30,6 +30,11 @@ cd "C:\Users\Sohel pc\Downloads\H2model"
 pip install -r requirements.txt
 streamlit run H2app.py
 
+or, 
+cd "C:\Users\Sohel pc\Downloads\h2model"
+venv\Scripts\activate
+streamlit run H2app_updated.py
+
 Dashboard will open in your browser at http://localhost:8501.
 
 Notes about this updated version:
